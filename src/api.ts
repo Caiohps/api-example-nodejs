@@ -11,5 +11,4 @@ const PORT = process.env.APPLICATION_PORT_PROVIDER || 3001;
 
 app.listen(PORT, async () => {
     console.info({ apiServer: `started at port: ${PORT}`})
-
 });

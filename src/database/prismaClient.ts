@@ -31,9 +31,7 @@ async function createPrismaClientWithRetry() {
 }
 
 async function main() {
-    console.info('Starting main function...');
     await createPrismaClientWithRetry();
-    console.info('Starting main function...');
 }
 
 main().catch((error) => {
