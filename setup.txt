@@ -4,3 +4,7 @@
 4- npx ts-jest config:init
 //run test
 5- npx jest
+6- npm install prisma --save-dev 
+7- npm install @prisma/client
+8- npm i dotenv
+//setup prismaClient
