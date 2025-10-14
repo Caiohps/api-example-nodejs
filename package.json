@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "npx nodemon src/api.ts",
     "dev": "ts-node-dev --respawn --transpile-only src/api.ts",
     "start:dev": "npm run migrate && npm run dev",
